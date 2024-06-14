@@ -1,6 +1,7 @@
 import HeroSection from './components/HeroSection'
 import MobileSection from './components/MobileSection'
 import StartInvesting from './components/StartInvesting'
+import RivenAcademy from './components/RivenAcademy'
 import Navbar from './components/Navbar'
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
       <HeroSection />
       <MobileSection />
       <StartInvesting />
+      <RivenAcademy />
       </div>
     </>
   )
