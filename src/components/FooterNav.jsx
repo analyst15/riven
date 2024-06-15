@@ -2,10 +2,10 @@ import React from 'react'
 
 const FooterNav = () => {
     return (
-        <div className="bg-black py-2">
-            <div className="sm:flex sm:items-center sm:justify-between">
-                <p className="mt-4 text-center text-sm text-gray-500 sm:mt-0 sm:text-right">
-                    Copyright &copy; 2022. All rights reserved.
+        <div className="bg-black text-white py-2">
+            <div className="flex max-w-5xl mx-auto px-14">
+                <p className="mt-4 text-sm sm:mt-0 sm:text-right">
+                    2024 &copy; Riven Limited. All rights reserved
                 </p>
             </div>
         </div>
