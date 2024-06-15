@@ -3,6 +3,7 @@ import MobileSection from './components/MobileSection'
 import StartInvesting from './components/StartInvesting'
 import RivenAcademy from './components/RivenAcademy'
 import OurProducts from './components/OurProducts'
+import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <StartInvesting />
       <RivenAcademy />
       <OurProducts />
+      <Footer />
       </div>
     </>
   )
