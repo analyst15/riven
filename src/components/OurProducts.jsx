@@ -4,9 +4,9 @@ const OurProducts = () => {
   return (
     <>
     <div className="flex items-center justify-center">
-    <h1 className="text-4xl md:text-base lg:text-base text-center text-gray-800">Our Products</h1>
+    <h1 className="text-4xl md:text-base font-bold lg:text-base text-center text-black mt-16">Our Products</h1>
     </div>
-    <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 p-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 p-4">
       <div className="bg-gray-100 p-4">
         <div className="flex">
           <img src="/src/assets/img/MaskGroup5.png" alt="Investment app screenshot" className="w-full h-auto" />
