@@ -4,8 +4,8 @@ const Footer = () => {
     return (
         <footer className="bg-white">
             <div className="mx-auto max-w-screen-xl px-4 pt-16 sm:px-6 lg:px-8">
-                <div className="mt-16 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5">
-                    <div className="text-center sm:text-left">
+                <div className="mt-16 lg:grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5">
+                    <div className="text-left sm:text-left">
                         <p className="text-lg font-medium text-black">Product</p>
 
                         <ul className="mt-8 space-y-4 text-sm">
@@ -15,7 +15,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className="text-center sm:text-left">
+                    <div className="text-left sm:text-left">
                         <p className="text-lg font-medium text-black">Company</p>
                         <ul className="mt-8 space-y-4 text-sm">
                             <li><a className="text-black" href="#">FAQs</a></li>
@@ -26,7 +26,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className="text-center sm:text-left col-span-2 lg:ml-16">
+                    <div className="text-left sm:text-left col-span-2 lg:ml-16">
                         <p className="text-lg font-medium text-black">Legal</p>
                         <ul className="mt-8 space-y-4 text-sm">
                             <li><a className="text-black" href="#">Privacy Policy</a></li>
@@ -36,7 +36,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className="text-center sm:text-left">
+                    <div className="text-left sm:text-left">
                         <p className="text-lg font-medium text-black">Contact us</p>
                         <ul className="mt-2 space-y-4 text-sm">
                             <li><a className="text-black" href="#">info@rivenapp.com</a></li>
@@ -90,7 +90,7 @@ const Footer = () => {
                 </div>
 
                 <div className="mt-16 sm:flex sm:items-center sm:justify-between">
-                    <p className="mt-4 text-center mb-8 font-bold text-base text-black sm:mt-0 sm:text-right">
+                    <p className="mt-4 text-left mb-8 font-bold text-base text-black sm:mt-0 sm:text-right">
                         *All investing involves risk
                     </p>
                 </div>
