@@ -8,16 +8,16 @@ const MobileSection = () => {
 
                 <div className="grid lg:grid-cols-3 grid-rows-1 gap-3 my-6 lg:my-12">
                     <div >
-                        <h1 className="font-bold text-lg">1. Create an account</h1>
-                        <p className="text-black text-lg text-left">Sign up with your phone number and get verified by your National ID in minutes.</p>
+                        <h1 className="font-bold text-black font-nunito text-base">1. Create an account</h1>
+                        <p className="text-black font-nunito text-base text-left">Sign up with your phone number and get verified by your National ID in minutes.</p>
                     </div>
                     <div >
-                        <h1 className="font-bold text-lg">2. Fund your wallet</h1>
-                        <p className="text-black text-lg text-left">Fund your account either by mobile money or bank transfer Instant deposit</p>
+                        <h1 className="font-bold text-black font-nunito text-base">2. Fund your wallet</h1>
+                        <p className="text-black text-base text-left">Fund your account either by mobile money or bank transfer Instant deposit</p>
                     </div>
                     <div className="">
-                        <h1 className="font-bold text-lg">3. Start Investing</h1>
-                        <p className="text-black text-lg text-left">From as little as $1</p>
+                        <h1 className="font-bold text-black text-base">3. Start Investing</h1>
+                        <p className="text-black text-base text-left">From as little as $1</p>
                     </div>
                 </div>
                 <a href="#" className="bg-black text-white font-nunito text-center py-2 px-4 rounded focus:outline-none w-2/3 lg:w-1/3">Start Investing</a>

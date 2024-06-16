@@ -3,50 +3,50 @@ import React from 'react'
 const Footer = () => {
     return (
         <footer className="bg-white">
-            <div className="mx-auto max-w-screen-xl px-4 pt-16 sm:px-6 lg:px-8">
+            <div className="mx-auto max-w-screen-xl lg:pt-16 sm:px-6 lg:px-8">
                 <div className="mt-16 lg:grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-5">
                     <div className="text-left sm:text-left">
-                        <p className="text-lg font-medium text-black">Product</p>
+                        <p className="text-lg lg:mt-8 font-nunito font-bold text-black">Product</p>
 
-                        <ul className="mt-8 space-y-4 text-sm">
-                            <li><a className="text-black" href="#">Invest</a></li>
-                            <li><a className="text-black" href="#">News</a></li>
-                            <li><a className="text-black" href="#">Learn</a></li>
+                        <ul className="mt-4 lg:mt-8 space-y-4 text-sm">
+                            <li><a className="text-black font-nunito" href="#">Invest</a></li>
+                            <li><a className="text-black font-nunito" href="#">News</a></li>
+                            <li><a className="text-black font-nunito" href="#">Learn</a></li>
                         </ul>
                     </div>
 
                     <div className="text-left sm:text-left">
-                        <p className="text-lg font-medium text-black">Company</p>
-                        <ul className="mt-8 space-y-4 text-sm">
-                            <li><a className="text-black" href="#">FAQs</a></li>
-                            <li><a className="text-black" href="#">About Us</a></li>
-                            <li><a className="text-black" href="#">Blog</a></li>
-                            <li><a className="text-black" href="#">Our Investors</a></li>
-                            <li><a className="text-black" href="#">Partner with Us</a></li>
+                        <p className="text-lg mt-8 font-bold font-nunito text-black">Company</p>
+                        <ul className="mt-4 lg:mt-8 space-y-4 text-sm">
+                            <li><a className="text-black font-nunito" href="#">FAQs</a></li>
+                            <li><a className="text-black font-nunito" href="#">About Us</a></li>
+                            <li><a className="text-black font-nunito" href="#">Blog</a></li>
+                            <li><a className="text-black font-nunito" href="#">Our Investors</a></li>
+                            <li><a className="text-black font-nunito" href="#">Partner with Us</a></li>
                         </ul>
                     </div>
 
                     <div className="text-left sm:text-left col-span-2 lg:ml-16">
-                        <p className="text-lg font-medium text-black">Legal</p>
-                        <ul className="mt-8 space-y-4 text-sm">
-                            <li><a className="text-black" href="#">Privacy Policy</a></li>
-                            <li><a className="text-black" href="#">Terms of Service</a></li>
-                            <li><a className="text-black" href="#">Disclosure & Agreements</a></li>
-                            <li><a className="text-black" href="#">Third party Agreement & Disclosures</a></li>
+                        <p className="text-lg mt-8 font-bold font-nunito text-black">Legal</p>
+                        <ul className="mt-4 lg:mt-8 space-y-4 text-sm">
+                            <li><a className="text-black font-nunito" href="#">Privacy Policy</a></li>
+                            <li><a className="text-black font-nunito" href="#">Terms of Service</a></li>
+                            <li><a className="text-black font-nunito" href="#">Disclosure & Agreements</a></li>
+                            <li><a className="text-black font-nunito" href="#">Third party Agreement & Disclosures</a></li>
                         </ul>
                     </div>
 
                     <div className="text-left sm:text-left">
-                        <p className="text-lg font-medium text-black">Contact us</p>
-                        <ul className="mt-2 space-y-4 text-sm">
+                        <p className="text-lg mt-8 font-nunito font-bold text-black">Contact us</p>
+                        <ul className="mt-4 space-y-4 text-sm">
                             <li><a className="text-black" href="#">info@rivenapp.com</a></li>
                         </ul>
-                        <div className="flex gap-2 pt-8">
+                        <div className="flex gap-2 pt-10 lg:pt-8">
                             <a
                                 href="#"
                                 rel="noreferrer"
                                 target="_blank"
-                                className="text-teal-700 transition hover:text-teal-700/75"
+                                className="text-black"
                             >
                                 <span className="sr-only">Facebook</span>
                                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -61,7 +61,7 @@ const Footer = () => {
                                 href="#"
                                 rel="noreferrer"
                                 target="_blank"
-                                className="text-teal-700 transition hover:text-teal-700/75"
+                                className="text-black"
                             >
                                 <span className="sr-only">Instagram</span>
                                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -76,7 +76,7 @@ const Footer = () => {
                                 href="#"
                                 rel="noreferrer"
                                 target="_blank"
-                                className="text-teal-700 transition hover:text-teal-700/75"
+                                className="text-black"
                             >
                                 <span className="sr-only">Twitter</span>
                                 <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -90,7 +90,7 @@ const Footer = () => {
                 </div>
 
                 <div className="mt-16 sm:flex sm:items-center sm:justify-between">
-                    <p className="mt-4 text-left mb-8 font-bold text-base text-black sm:mt-0 sm:text-right">
+                    <p className="mt-4 text-left mb-8 font-bold font-nunito text-base text-black sm:mt-0 sm:text-right">
                         *All investing involves risk
                     </p>
                 </div>
