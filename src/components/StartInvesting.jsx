@@ -2,7 +2,7 @@ import React from 'react'
 
 const StartInvesting = () => {
   return (
-    <div className="container lg:pt-32 mx-auto flex flex-col md:flex-row lg:h-screen">
+    <div className="container mx-auto flex flex-col md:flex-row lg:h-screen">
         <div className="flex">
         <img src="/src/assets/img/MaskGroup2.png" alt="Investment app screenshot" className="w-full" />
         </div>

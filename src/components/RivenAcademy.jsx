@@ -2,7 +2,7 @@ import React from 'react'
 
 const MobileSection = () => {
   return (
-    <div className="container lg:pt-32 mx-auto flex flex-col md:flex-row lg:h-screen">
+    <div className="container mx-auto flex flex-col md:flex-row lg:h-screen">
       <div className="content py-8 lg:py-16 flex flex-col justify-center w-full md:w-1/2">
         <h1 className="font-bold text-black font-nunito text-xl">Riven Academy</h1>
         <p className="text-base font-nunito text-black py-6 lg:py-8">Become a better investor on the go, right on the app. Here is a preview of the things you can learn when you sign up</p>

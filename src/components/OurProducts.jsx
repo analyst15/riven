@@ -3,8 +3,8 @@ import React from 'react'
 const OurProducts = () => {
   return (
     <>
-      <div className="flex items-center justify-center">
-        <h1 className="text-2xl md:text-base font-bold font-nunito lg:text-xl text-center text-black mt-10 lg:mt-32">Our Products</h1>
+      <div className="flex lg:items-center lg:justify-center">
+        <h1 className="text-xl md:text-base font-bold font-nunito lg:text-xl text-left lg:text-center text-black mt-4 lg:mt-0">Our Products</h1>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 lg:p-4">
         <div className="lg:p-4">

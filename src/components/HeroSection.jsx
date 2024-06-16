@@ -14,7 +14,7 @@ const HeroSection = () => {
             <img src="/src/assets/img/AppStore.png" class="w-32 h-10" />
           </div>
         </div>
-        <div className="flex">
+        <div className="flex lg:border-b-4 border-solid border-black">
           <img src="/src/assets/img/Group9629.svg" alt="Placeholder" class="w-full h-auto" />
         </div>
       </div>
