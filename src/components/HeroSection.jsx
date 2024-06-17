@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-    <div className="container font-nunito mx-auto pb-7">
+    <div className="container font-nunito mx-auto pb-7 lg:pb-0">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="flex flex-col justify-center items-start">
           <h1 className="text-3xl lg:text-6xl font-bold mb-2">Investing</h1>
@@ -14,7 +14,7 @@ const HeroSection = () => {
             <img src="/src/assets/img/AppStore.png" class="w-32 h-10" />
           </div>
         </div>
-        <div className="flex lg:border-b-4 border-solid border-black">
+        <div className="flex">
           <img src="/src/assets/img/Group9629.svg" alt="Placeholder" class="w-full h-auto" />
         </div>
       </div>

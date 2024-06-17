@@ -1,6 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import logo from "../assets/logo.png";
+import RivenWhiteLogo from "../assets/RivenWhiteLogo.svg";
 import { navItems } from "../constants";
 
 const Navbar = () => {
@@ -10,13 +10,12 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg bg-black text-white">
+    <nav className="sticky top-0  py-3 backdrop-blur-lg bg-black text-white">
       <div className="max-w-6xl mx-auto">
-        <div className="container px-4 mx-auto relative text-sm">
+        <div className="container px-4 lg:px-24 mx-auto relative text-sm">
           <div className="flex justify-between items-center">
             <div className="flex items-center flex-shrink-0">
-              <img className="h-10 w-10 mr-2" src={logo} alt="" />
-              <span className="text-xl  font-nunito tracking-tight">Riven</span>
+              <img className="h-auto w-20 mr-2" src={RivenWhiteLogo} alt="" />
             </div>
             <ul className="hidden font-nunito lg:flex ml-14 space-x-12">
               {navItems.map((item, index) => (

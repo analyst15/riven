@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 416.26 181.09">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-family: ErasITC-Medium, 'Eras Medium ITC';
+        font-size: 110px;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <rect class="cls-1" x="2" y="2" width="6.39" height="177.08"/>
+      <polygon class="cls-1" points="147.04 2 147.04 59.56 116.21 59.56 116.21 171.67 109.82 171.67 109.82 59.56 28.49 59.56 28.49 53.61 140.65 53.61 140.65 7.95 28.49 7.95 28.49 2 147.04 2"/>
+      <text class="cls-2" transform="translate(169.78 122.64)"><tspan x="0" y="0">IVEN</tspan></text>
+    </g>
+  </g>
+</svg>

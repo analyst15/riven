@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import FooterNav from './components/FooterNav'
 import Border from './components/Border'
 import Navbar from './components/Navbar'
+import BottomBar from './components/BottomBar'
 
 const App = () => {
   return (
@@ -14,6 +15,9 @@ const App = () => {
       <Navbar />
       <div className="max-w-5xl mx-auto pt-20 px-6">
       <HeroSection />
+      </div>
+      <BottomBar />
+      <div className="max-w-5xl mx-auto px-6">
       <MobileSection />
       </div>
       <Border />
