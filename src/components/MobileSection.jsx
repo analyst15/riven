@@ -1,4 +1,5 @@
 import React from 'react'
+import Group9610 from '/src/assets/img/Group9610.svg'
 
 const MobileSection = () => {
     return (
@@ -23,7 +24,7 @@ const MobileSection = () => {
                 <a href="#" className="bg-black text-white font-nunito text-center py-2 px-4 rounded focus:outline-none w-2/3 lg:w-1/3">Start Investing</a>
             </div>
             <div className="flex">
-                <img src="/src/assets/img/Group9610.svg" alt="Investment app screenshot" className="my-12 lg:my-0 lg:ml-52 w-full h-auto" />
+                <img src={Group9610} alt="Investment app screenshot" className="my-12 lg:my-0 lg:ml-52 w-full h-auto" />
             </div>
         </div>
     )

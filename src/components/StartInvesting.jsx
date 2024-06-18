@@ -1,10 +1,11 @@
 import React from 'react'
+import MaskGroup2 from '/src/assets/img/MaskGroup2.png'
 
 const StartInvesting = () => {
   return (
     <div className="container mx-auto flex flex-col md:flex-row lg:h-screen">
         <div className="flex">
-        <img src="/src/assets/img/MaskGroup2.png" alt="Investment app screenshot" className="w-full" />
+        <img src={MaskGroup2} alt="Investment app screenshot" className="w-full" />
         </div>
     <div className="content py-7 lg:py-16 flex lg:ml-4 flex-col justify-center w-full md:w-1/2">
     <h1 className="font-bold text-black text-lg lg:text-xl font-nunito">Invest any Amount</h1>

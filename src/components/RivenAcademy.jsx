@@ -1,4 +1,5 @@
 import React from 'react'
+import MaskGroup1 from '/src/assets/img/MaskGroup1.png'
 
 const MobileSection = () => {
   return (
@@ -9,7 +10,7 @@ const MobileSection = () => {
         <a href="#" className="bg-black text-white  text-center py-2 px-4 rounded focus:outline-none lg:w-2/3">Sign Up to access Riven Academy</a>
       </div>
       <div className="flex">
-        <img src="/src/assets/img/MaskGroup1.png" alt="Investment app screenshot" className="w-full h-auto" />
+        <img src={MaskGroup1} alt="Investment app screenshot" className="w-full h-auto" />
       </div>
     </div>    
   )
