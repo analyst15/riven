@@ -12,6 +12,7 @@ import BottomBar from './components/BottomBar'
 const App = () => {
   return (
     <>
+      <div className='overflow-x-hidden'>
       <Navbar />
       <div className="max-w-5xl mx-auto pt-20 px-6">
       <HeroSection />
@@ -37,6 +38,7 @@ const App = () => {
       <Footer />
       </div>
       <FooterNav />
+      </div>
     </>
   )
 }
