@@ -1,4 +1,7 @@
 import React from 'react'
+import GooglePlay from '/src/assets/img/GooglePlay.png'
+import Appstore from '/src/assets/img/AppStore.png'
+import Group9629 from '/src/assets/img/Group9629.svg'
 
 const HeroSection = () => {
   return (
@@ -10,12 +13,12 @@ const HeroSection = () => {
           <h1 className="text-3xl lg:text-6xl font-bold mb-2">Simple</h1>
           <p className="text-base lg:text-xl text-black font-nunito pt-8">Riven is the easiest way to access smarter investment options & earn real returns.</p>
           <div class="flex mt-16">
-            <img src="/src/assets/img/GooglePlay.png" class="w-32 h-10 mr-4" />
-            <img src="/src/assets/img/AppStore.png" class="w-32 h-10" />
+            <img src={GooglePlay} class="w-32 h-10 mr-4" />
+            <img src={Appstore} class="w-32 h-10" />
           </div>
         </div>
         <div className="flex">
-          <img src="/src/assets/img/Group9629.svg" alt="Placeholder" class="w-full h-auto" />
+          <img src={Group9629} alt="Placeholder" class="w-full h-auto" />
         </div>
       </div>
     </div>
