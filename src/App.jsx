@@ -13,31 +13,31 @@ const App = () => {
   return (
     <>
       <div className='overflow-x-hidden'>
-      <Navbar />
-      <div className="max-w-5xl mx-auto pt-20 px-6">
-      <HeroSection />
-      </div>
-      <BottomBar />
-      <div className="max-w-5xl mx-auto px-6">
-      <MobileSection />
-      </div>
-      <Border />
-      <div className="max-w-5xl mx-auto px-6">
-      <StartInvesting />
-      </div>
-      <Border />
-      <div className="max-w-5xl mx-auto px-6">
-      <RivenAcademy />
-      </div>
-      <Border />
-      <div className="max-w-5xl mx-auto px-6">
-      <OurProducts />
-      </div>
-      <Border />
-      <div className="max-w-5xl mx-auto px-6">
-      <Footer />
-      </div>
-      <FooterNav />
+        <Navbar />
+        <div className="max-w-5xl mx-auto pt-20 px-6">
+          <HeroSection />
+        </div>
+        <BottomBar />
+        <div className="max-w-5xl mx-auto px-6">
+          <MobileSection />
+        </div>
+        <Border />
+        <div className="max-w-5xl mx-auto px-6">
+          <StartInvesting />
+        </div>
+        <Border />
+        <div className="max-w-5xl mx-auto px-6">
+          <RivenAcademy />
+        </div>
+        <Border />
+        <div className="max-w-5xl mx-auto px-6">
+          <OurProducts />
+        </div>
+        <Border />
+        <div className="max-w-5xl mx-auto px-6">
+          <Footer />
+        </div>
+        <FooterNav />
       </div>
     </>
   )

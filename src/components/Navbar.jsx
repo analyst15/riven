@@ -2,6 +2,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import RivenWhiteLogo from "../assets/RivenWhiteLogo.svg";
 import { navItems } from "../constants";
+import Swal from 'sweetalert2'
 
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -9,6 +10,44 @@ const Navbar = () => {
     setMobileDrawerOpen(!mobileDrawerOpen);
   };
 
+  const handleClick = () => {
+    Swal.fire({
+      title: "Submit your Github username",
+      input: "text",
+      inputAttributes: {
+        autocapitalize: "off"
+      },
+      showCancelButton: true,
+      confirmButtonText: "Look up",
+      showLoaderOnConfirm: true,
+      preConfirm: async (login) => {
+        try {
+          const githubUrl = `
+            https://api.github.com/users/${login}
+          `;
+          const response = await fetch(githubUrl);
+          if (!response.ok) {
+            return Swal.showValidationMessage(`
+              ${JSON.stringify(await response.json())}
+            `);
+          }
+          return response.json();
+        } catch (error) {
+          Swal.showValidationMessage(`
+            Request failed: ${error}
+          `);
+        }
+      },
+      allowOutsideClick: () => !Swal.isLoading()
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire({
+          title: `${result.value.login}'s avatar`,
+          imageUrl: result.value.avatar_url
+        });
+      }
+    });
+  }
   return (
     <nav className="sticky top-0  py-3 backdrop-blur-lg bg-black text-white">
       <div className="max-w-6xl mx-auto">
@@ -25,7 +64,7 @@ const Navbar = () => {
               ))}
             </ul>
             <div className="hidden lg:flex justify-center space-x-12 items-center">
-              <a href="#" className="py-2 px-9 border rounded-md">
+              <a onClick={handleClick} className="py-2 px-9 border rounded-md cursor-pointer">
                 Join Waitlist
               </a>
             </div>
