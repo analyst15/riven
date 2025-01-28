@@ -21,7 +21,7 @@ const MobileSection = () => {
                         <p className="text-black text-base text-left">From as little as $1</p>
                     </div>
                 </div>
-                <a href="#" className="bg-black text-white font-nunito text-center py-2 px-4 rounded focus:outline-none w-2/3 lg:w-1/3">Start Investing</a>
+                <a href="#" className="bg-black text-white font-nunito text-center py-2 px-4 rounded focus:outline-none w-2/3 lg:w-2/3">Join waitlist to get early access</a>
             </div>
             <div className="flex">
                 <img src={Group9610} alt="Investment app screenshot" className="my-12 lg:my-0 lg:ml-52 w-full h-auto" />

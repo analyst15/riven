@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 680">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #231f20;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-family: BankGothicBT-Medium, 'BankGothic Md BT';
+        font-size: 103.54px;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+  <rect class="cls-3" width="680" height="680"/>
+  <g>
+    <text class="cls-2" transform="translate(123.95 532.76) scale(1.2 1)"><tspan x="0" y="0">RIVEN</tspan></text>
+    <g>
+      <rect class="cls-1" x="164.86" y="122.82" width="65.16" height="316.8"/>
+      <path class="cls-1" d="M470.49,331.81c27.58,27.6,44.65,65.71,44.65,107.81h-248.45v-152.46h95.99c42.1,0,80.21,17.07,107.81,44.65Z"/>
+      <path class="cls-1" d="M362.68,275.28h-95.99V122.82h248.45c0,42.1-17.07,80.21-44.65,107.81-27.6,27.58-65.71,44.65-107.81,44.65Z"/>
+    </g>
+  </g>
+</svg>

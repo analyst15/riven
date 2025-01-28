@@ -8,35 +8,36 @@ import FooterNav from './components/FooterNav'
 import Border from './components/Border'
 import Navbar from './components/Navbar'
 import BottomBar from './components/BottomBar'
+import LandingPage from './components/LandingPage'
 
 const App = () => {
   return (
     <>
       <div className='overflow-x-hidden'>
-        <Navbar />
-        <div className="max-w-5xl mx-auto pt-20 px-6">
-          <HeroSection />
+        {/**<Navbar />**/}
+        <div className="">
+          <LandingPage />
         </div>
         <BottomBar />
         <div className="max-w-5xl mx-auto px-6">
           <MobileSection />
         </div>
         <Border />
-        <div className="max-w-5xl mx-auto px-6">
+        {/**<div className="max-w-5xl mx-auto px-6">
           <StartInvesting />
         </div>
-        <Border />
+        <Border />**/}
         <div className="max-w-5xl mx-auto px-6">
           <RivenAcademy />
         </div>
-        <Border />
+        {/**<Border />
         <div className="max-w-5xl mx-auto px-6">
           <OurProducts />
         </div>
         <Border />
         <div className="max-w-5xl mx-auto px-6">
           <Footer />
-        </div>
+        </div>**/}
         <FooterNav />
       </div>
     </>
