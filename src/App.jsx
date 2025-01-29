@@ -9,6 +9,7 @@ import Border from './components/Border'
 import Navbar from './components/Navbar'
 import BottomBar from './components/BottomBar'
 import LandingPage from './components/LandingPage'
+import Note from './components/Note'
 
 const App = () => {
   return (
@@ -38,6 +39,9 @@ const App = () => {
         <div className="max-w-5xl mx-auto px-6">
           <Footer />
         </div>**/}
+        <div className="max-w-5xl mx-auto px-6">
+          <Note />
+        </div>
         <FooterNav />
       </div>
     </>
